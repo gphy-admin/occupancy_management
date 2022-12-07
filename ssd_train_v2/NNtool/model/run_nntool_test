@@ -1,0 +1,3 @@
+open model/saved_model.json
+run_pyscript utils/nn_run.py
+

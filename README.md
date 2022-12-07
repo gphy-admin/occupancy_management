@@ -12,6 +12,7 @@ To see how to install and use our reference platform you can refer to this [vide
 4. **gap8_project**     : Gap8 Application source code CNN with Custom Single Shot Detector (SSD)
 5. **gap8_project_v2**  : Gap8 Application source code Mobilenet based CNN with TF API for SSD
 6. **ssd_train**        : CNN training and fine tuning
+7. **ssd_train_v2**     : CNN training and fine tuning using the Tensorflow object detection API
 
 The dataset used to train the Neural network algorithm can be found [here](https://gwt-website-files.s3.eu-central-1.amazonaws.com/occupancy_management_dataset.zip).
 

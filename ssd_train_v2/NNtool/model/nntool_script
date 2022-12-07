@@ -1,0 +1,17 @@
+adjust
+fusions --scale8
+set debug true
+set input_norm_func "x: x/128-1"
+aquant SQ8 ./images_for_quantization/* -T -H 80 -W 80
+
+set input_norm_func "x: x"
+show
+qshow
+#set l2_ram_ext_managed false
+#set graph_reorder_constant_in true
+#set graph_produce_node_names true
+#set graph_produce_operinfos true
+#set graph_monitor_cycles true
+#set graph_const_exec_from_flash true
+save_state
+#run_pyscript utils/nn_run.py
